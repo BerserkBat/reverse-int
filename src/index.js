@@ -1,3 +1,3 @@
 module.exports = function reverse (n) {
- return +n.toString().split('').reverse().join('')
+ return +(Math.trunc(n).toString().split('').reverse().join(''));
 }
